@@ -54,7 +54,7 @@
       mouse-button-down? #r
       draw-rectangle
       show-cursor
-      [get-frame-time 16.6] #r
+      [get-frame-time 0.0166] #r
       begin-drawing
       end-drawing
       window-should-close #r
