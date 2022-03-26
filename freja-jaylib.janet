@@ -19,6 +19,8 @@
   [_ text _ _]
   [(length text) 1])
 
+# r means it returns a value
+# [f x] means shim will return x when f is called
 (shim init-window
       set-clipboard-text
       get-clipboard-text #r
@@ -39,7 +41,7 @@
       load-render-texture #r
       rl-translatef
       draw-texture-pro
-      get-render-texture
+      get-render-texture-texture2d
       draw-line-ex
       [get-char-pressed 0] #r
       key-released? #r
