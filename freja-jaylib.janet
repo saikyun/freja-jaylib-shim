@@ -65,5 +65,7 @@
       set-exit-key
       [get-window-scale-dpi [1 1]] #r
       set-target-fps
+      begin-scissor-mode
+      end-scissor-mode
       #
 )
