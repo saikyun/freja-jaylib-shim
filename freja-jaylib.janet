@@ -67,5 +67,6 @@
       set-target-fps
       begin-scissor-mode
       end-scissor-mode
+      set-trace-log-level
       #
 )
