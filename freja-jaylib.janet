@@ -68,5 +68,9 @@
       begin-scissor-mode
       end-scissor-mode
       set-trace-log-level
+      rl-scalef
+      set-key-callback
+      set-char-callback
+      set-scroll-callback
       #
 )
